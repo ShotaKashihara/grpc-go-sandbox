@@ -6,7 +6,7 @@ import (
 	"net"
 	"os"
 
-	pb "github.com/grpc-ecosystem/grpc-cloud-run-example/golang/protos"
+	pb "github.com/ShotaKashihara/grpc-go-sandbox/protos"
 
 	"google.golang.org/grpc"
 )

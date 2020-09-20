@@ -8,7 +8,7 @@ import (
 	"math/rand"
 	"time"
 
-	pb "github.com/grpc-ecosystem/grpc-cloud-run-example/golang/protos"
+	pb "github.com/shotakashihara/grpc-go-sandbox/protos"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"

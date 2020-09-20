@@ -1,4 +1,4 @@
-module github.com/grpc-ecosystem/grpc-cloud-run-example/golang
+module github.com/ShotaKashihara/grpc-go-sandbox
 
 go 1.13
 

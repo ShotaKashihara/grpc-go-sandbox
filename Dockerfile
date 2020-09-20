@@ -27,7 +27,7 @@ RUN protoc \
 RUN CGO_ENABLED=0 GOOS=linux \
     go build -a -installsuffix cgo \
     -o /go/bin/server \
-    github.com/grpc-ecosystem/grpc-cloud-run-example/golang/server
+    github.com/ShotaKashihara/grpc-go-sandbox/server
 
 
 FROM scratch

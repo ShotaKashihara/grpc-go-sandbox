@@ -1,8 +1,10 @@
 #!/usr/bin/env bash
 
+# https://grpc-go-sandbox-xxxxxx-an.a.run.app
+ENDPOINT=$1
+
 grpcurl \
-  -plaintext \
   -proto protos/calculator.proto \
-  -d '{"first_operand": 2.0, "second_operand": 3.0, "operation": "ADD"}' \
-  localhost:50051 \
+  -d '{"first_operand": 3.0, "second_operand": 3.0, "operation": "ADD"}' \
+  ${ENDPOINT#https://}:443 \
   Calculator.Calculate

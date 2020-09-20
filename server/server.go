@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 
-	pb "github.com/shotakashihara/grpc-go-sandbox/protos"
+	pb "github.com/ShotaKashihara/grpc-go-sandbox/protos"
 )
 
 // Prove that Server implements pb.CalculatorServer by instantiating a Server

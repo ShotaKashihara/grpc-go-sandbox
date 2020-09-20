@@ -1,5 +1,7 @@
 module github.com/ShotaKashihara/grpc-go-sandbox
 
+// module grpc-go-sandbox
+
 go 1.13
 
 require (
@@ -17,7 +19,6 @@ require (
 	github.com/prometheus/client_model v0.2.0 // indirect
 	github.com/spf13/afero v1.4.0 // indirect
 	github.com/stretchr/objx v0.3.0 // indirect
-	golang.org/x/exp v0.0.0-20200224162631-6cc2880d07d6 // indirect
 	golang.org/x/mod v0.3.1-0.20200828183125-ce943fd02449 // indirect
 	golang.org/x/sys v0.0.0-20200918174421-af09f7315aff // indirect
 	golang.org/x/tools v0.0.0-20200918232735-d647fc253266 // indirect

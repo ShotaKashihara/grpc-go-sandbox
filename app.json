@@ -1,10 +1,3 @@
 {
-  "name": "grpc-go-sandbox",
-  "env": {
-    "SERVER_HTTP": {
-      "description": "Whether to use HTTP to serve, instead of HTTPS",
-      "value": "true",
-      "required": false
-    }
-  }
+  "name": "grpc-go-sandbox"
 }
